@@ -240,6 +240,7 @@ margin-right: 50px;
 }
 
 /* Portfolio */
+
 .btn-list {
   display: flex;
   justify-content: center;
@@ -247,6 +248,8 @@ margin-right: 50px;
 .btn-list .item:not(:last-child){
   margin-right: 8px;
 }
+
+
 
 .btn-nav {
   font-family: Roboto;
@@ -272,6 +275,7 @@ margin-right: 50px;
   text-decoration: none;
 }
 .port-exemp {
+  margin-top: 56px;
   display: flex;
   flex-wrap: wrap;
 }
