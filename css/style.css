@@ -283,10 +283,10 @@ margin-right: 50px;
   margin-bottom: 20px;
 }
 .port-exemp .item{
-  width: 372px;
+  width: 370px;
   border: 1px solid #EEEEEE;
 }
-.port-exemp .item:not(:nth-child(3)){
+.port-exemp .item:not(:nth-child(3n)){
   margin-right: 30px;
 }
 .port-exemp .item:not(:nth-last-child(-n +3)) {
@@ -324,11 +324,13 @@ margin-right: 50px;
 
 /* Footer */
 .footer-container {
+  padding-bottom: 60px;
+  padding-top: 60px;
   display: flex;
   align-items: center;
 }
 
-.footer-logo {
+.footer-logo { 
   display: inline-block;
   margin-bottom: 20px;
 }
