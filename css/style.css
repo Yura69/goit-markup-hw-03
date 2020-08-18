@@ -88,6 +88,9 @@ margin-right: 50px;
   text-decoration: none;
   color: var(--main-text-color);
 }
+.active-link {
+  color: var(--accent-color);
+}
 .hd-nav:hover,
 .link-nav:hover,
 .hd-nav:active,
@@ -252,6 +255,8 @@ margin-right: 50px;
 
 
 .btn-nav {
+  padding: 6px 22px;
+  border-radius: 4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
